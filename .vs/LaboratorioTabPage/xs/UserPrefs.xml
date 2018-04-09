@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{7B72DA2D-F9D0-4CCB-A306-4B3709169FF1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LaboratorioTabPage/ViewModel/EstudianteViewModel.cs">
+    <Files>
+      <File FileName="LaboratorioTabPage/Models/Estudiante.xaml" Line="4" Column="14" />
+      <File FileName="LaboratorioTabPage/Models/Estudiante.xaml.cs" Line="14" Column="9" />
+      <File FileName="LaboratorioTabPage/Models/Tareas.xaml" Line="6" Column="1" />
+      <File FileName="LaboratorioTabPage/Models/Tareas.xaml.cs" Line="16" Column="9" />
+      <File FileName="LaboratorioTabPage/LaboratorioTabPagePage.xaml" Line="10" Column="1" />
+      <File FileName="LaboratorioTabPage/Views/CapturaView.xaml" Line="41" Column="1" />
+      <File FileName="LaboratorioTabPage/Views/DetalleView.xaml" Line="33" Column="1" />
+      <File FileName="LaboratorioTabPage/Models/EstudianteModel.cs" Line="11" Column="1" />
+      <File FileName="LaboratorioTabPage/App.xaml.cs" Line="12" Column="32" />
+      <File FileName="LaboratorioTabPage/Views/CapturaView.xaml.cs" Line="13" Column="1" />
+      <File FileName="LaboratorioTabPage/Views/ListadoView.xaml" Line="36" Column="1" />
+      <File FileName="LaboratorioTabPage/ViewModel/EstudianteViewModel.cs" Line="8" Column="21" />
+      <File FileName="LaboratorioTabPage/Views/ListadoView.xaml.cs" Line="13" Column="27" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="LaboratorioTabPage/Views/TabPage.xaml" Line="10" Column="1" />
+      <File FileName="LaboratorioTabPage/Models/TareaModel.cs" Line="1" Column="1" />
+      <File FileName="LaboratorioTabPage/obj/Debug/LaboratorioTabPage.Views.TabPage.xaml.g.cs" Line="19" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.LaboratorioTabPage.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.FDE347CE-A500-4124-9667-F81178645D98">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.LaboratorioTabPage.iOS>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/gera/Projects/Lab5_GeraldinCastro/LaboratorioTabPage/ViewModel/EstudianteViewModel.cs" relfile="LaboratorioTabPage/ViewModel/EstudianteViewModel.cs" line="131" column="30" />
+      <Breakpoint file="/Users/gera/Projects/Lab5_GeraldinCastro/LaboratorioTabPage/ViewModel/EstudianteViewModel.cs" relfile="LaboratorioTabPage/ViewModel/EstudianteViewModel.cs" line="29" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.LaboratorioTabPage.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MultiItemStartupConfigurations />
+</Properties>

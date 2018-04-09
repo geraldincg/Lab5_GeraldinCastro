@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="LaboratorioTabPage.Views.CapturaView"
+             >
+     <StackLayout HorizontalOptions="Fill">
+       <!--Detalle Persona-->
+       <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="Start" Padding="50">
+            <StackLayout VerticalOptions="Center">
+                <Label Text="Sistema de Informacion Estudiantil" TextColor="Green" FontSize="15" FontFamily="bold"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <!--Informacion del Estudiante-->
+            
+            <StackLayout HorizontalOptions="Fill" VerticalOptions="Start">
+                <StackLayout>
+                    <Image Source="foto" HeightRequest="70" WidthRequest="70"/>
+                    <Button Text="Tomar Foto" TextColor="Blue"/>
+            </StackLayout>
+                <!--Nombre-->
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Nombre:" Margin="0,10,0,0"/>
+                    <Entry Text="{Binding EstudianteActual.Nombre}" WidthRequest="250" Placeholder="Nombre" />
+<!--                    <Editor Text="{Binding EstudianteActual.Nombre}" MinimumHeightRequest="50"/>-->
+                </StackLayout>
+                <!--Telefono-->
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Nota: " Margin="0,10,0,0"/>
+                    <Entry Text="{Binding EstudianteActual.Nota}" WidthRequest="250" Placeholder="Nota" />
+<!--                    <Editor Text="{Binding EstudianteActual.Nombre}" MinimumHeightRequest="50"/>-->
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                   <Button Text="Guardar" TextColor="Blue" Command="{Binding GuardarEstudianteCommand}"/>
+<!--                    <Button Text="Guardar" TextColor="Blue" Command="{Binding Path=BindingContext.GuardarEstudianteCommand}"></Button>-->
+                </StackLayout>
+            </StackLayout> 
+       </StackLayout>
+     </StackLayout> 
+</ContentPage>

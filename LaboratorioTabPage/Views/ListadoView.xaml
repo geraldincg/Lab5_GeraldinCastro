@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="LaboratorioTabPage.Views.ListadoView">
+    <ContentPage.Content>
+ <StackLayout HorizontalOptions="Fill">
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="Start" Padding="50">
+            <StackLayout VerticalOptions="Center">
+                <Label Text="Listado de Estudiantes" FontSize="20" FontFamily="bold" TextColor="Green"/>
+<!--                <Label Text="114520775"/>-->
+            </StackLayout>
+        </StackLayout>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <ListView x:Name="lstvEstudiantes"
+                      ItemsSource="{Binding lstEstudiantes}" SelectedItem="{Binding SelectedItem}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                           <ViewCell.View>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding Id}"/>
+                                <Label Text="{Binding Nombre}"/>
+                                <Label Text="{Binding Nota}"/>
+                                <Image Source="foto" HorizontalOptions="EndAndExpand"/>       
+                            </StackLayout>
+                           </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+         </StackLayout>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
